@@ -24,7 +24,7 @@ public class Assignatura {
     }
 
     public Alumne millorAlumne() {
-        
+
         Alumne alumne = new Alumne("aleix", 23, new int[]{0});
         for (int i = 0; i < alumnes.size(); i++) {
             if (alumne.mitjanaNotes() > alumnes.get(i).mitjanaNotes()) {
